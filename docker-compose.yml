@@ -22,7 +22,7 @@ services:
         ports:
           - 13306:3306
         volumes:
-          - .mysql/db:/var/lib/mysql
+          - .mysql/db:/var/lib/mysql 
         environment:
           - MYSQL_ROOT_PASSWORD=wordpress
           - REPLICATION_PASSWORD=wordpress
@@ -72,7 +72,7 @@ services:
         ports:
           - 33306:3306
         volumes:
-          - ./mysql/db2:/var/lib/mysql
+          - .mysql/db2:/var/lib/mysql
         environment:
           - MYSQL_ROOT_PASSWORD=wordpress
           - REPLICATION_PASSWORD=wordpress
