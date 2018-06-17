@@ -1,20 +1,20 @@
 
- ####################################################
- #  ____________________________________            #
- #  |                                  |            #
- #  |  Subject: PSI                    |            #
- #  |  HeadTeacher: mgr Karol Kornatka |            #
- #  |__________________________________|            #
- #                                                  #
- #   Project: WWW |HA Apache + HA Mariadb |         #
- #   Author:  Szymon Jakubowski                     #
- #   Index number: 30786                            #
- #   email: szymjak@wsinf.edu.pl                    #
- #   private email: pasjajakub@gmail.com            #
- #                                                  #
- ####################################################
+ #############################
+ #  ____________________________________           #
+ #  |                                                      |         #
+ #  |  Subject: PSI                                  |         #
+ #  |  HeadTeacher: mgr Karol Kornatka |         #
+ #  |____________________________________ |         #
+ #                                                                    #
+ #   Project: WWW |HA Apache + HA Mariadb  # 
+ #   Author:  Szymon Jakubowski                      #
+ #   Index number: 30786                                #
+ #   email: szymjak@wsinf.edu.pl                      #
+ #   private email: pasjajakub@gmail.com       #
+ #                                                                    #
+ #############################
 
-# Dockercompose version
+# Docker-compose version
 version: '3'
 
 #Services
